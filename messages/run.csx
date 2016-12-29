@@ -27,7 +27,7 @@ public static async Task<object> Run(HttpRequestMessage req, TraceWriter log)
         {
             return BotAuthenticator.GenerateUnauthorizedResponse(req);
         }
-        
+        //this is test
         if (activity != null)
         {
             // one of these will have an interface and process it
